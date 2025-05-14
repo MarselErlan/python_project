@@ -3,8 +3,7 @@ thisDict = {
     "model": "Mustang",
     "year": 1964
 }
-thisDict["year"] = 2018
+thisDict["color"] = "red"
 print(thisDict)
-thisDict.update({"year": 2020})
+thisDict.update({"color": "red"})
 print(thisDict)
-
