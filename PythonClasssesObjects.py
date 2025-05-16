@@ -53,10 +53,10 @@ print("----------------------")
 
 class Person6:
     def __int__(mysillyobject, name, age):
-        mysillyobject.name = name
+        mysillyobject.Name = name
         mysillyobject.age = age
     def myFunc6(abc):
-        print("Hello my name is " + abc.name)
+        print("Hello my name is " + abc.Name)
 
 p6 = Person6("John", 36)
 p6.myFunc6()
